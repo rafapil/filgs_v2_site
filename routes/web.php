@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('home');
 });
+
+// Rotas estaticas para fora do laravel - podendo ser outros servicos ou worpress
+
+Route::get('/blog', function () {
+    return redirect('http://www.filgs.com.br/blog');
+    // return view('welcome');
+});

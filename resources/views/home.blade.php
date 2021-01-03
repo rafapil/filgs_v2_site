@@ -1,16 +1,9 @@
 <!DOCTYPE html>
-<!--[if lt IE 9 ]><html class="no-js oldie" lang="pt-br"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="pt-br"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="pt-br">
-<!--<![endif]-->
 
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
     <meta charset="utf-8">
-    <title>Glint</title>
+    <title>Filgs</title>
     <meta name="description" content="">
     <meta name="author" content="Rafael Filgueiras - Filgs Consultoria tecnologica e Agencia Digital">
 
@@ -53,41 +46,41 @@
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
 
             <div class="header-nav__content">
-                <h3>Navigation</h3>
+                <h3>Navegação</h3>
 
                 <ul class="header-nav__list">
                     <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll" href="#about" title="about">Sobre</a></li>
-                    <li><a class="smoothscroll" href="#services" title="services">Serviços</a></li>
-                    <li><a class="smoothscroll" href="#works" title="works">Projetos</a></li>
-                    <li><a class="smoothscroll" href="#clients" title="clients">Soluções</a></li>
+                    <li><a class="#" href="/blog" title="blog" target="_blank">Blog</a></li>
+                    <li><a class="smoothscroll" href="#about" title="about">Quem é o filgs</a></li>
+                    <li><a class="smoothscroll" href="#services" title="services">Habilidades</a></li>
+                    <!-- <li><a class="smoothscroll" href="#works" title="works">Projetos</a></li> -->
+                    <!-- {{-- <li><a class="smoothscroll" href="#clients" title="clients">Soluções</a></li> --}} -->
                     <li><a class="smoothscroll" href="#contact" title="contact">Contato</a></li>
 
-                <hr>
+                    <hr>
 
-                    <li><a class="smoothscroll" href="#" title="about">Login</a></li>
+                    <!-- <li><a class="smoothscroll" href="#" title="about">Login</a></li> -->
                     <!-- <li><a class="smoothscroll" href="#" title="about">Login</a></li>
                     <li><a class="smoothscroll" href="#" title="about">Login</a></li> -->
                 </ul>
 
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+                <p>Filgs foi desenvolvido por: <a href='#0'>Rafael Filgueiras</a> e faz parte do seu portifolio pessoal
+                    e agencia.</p>
 
                 <ul class="header-nav__social">
-                    <li>
+                    {{-- <li>
                         <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
+                    </li> --}}
+                    {{-- <li>
                         <a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
+                    </li> --}}
+                    {{-- <li>
                         <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
+                    </li> --}}
                     <li>
-                        <a href="#"><i class="fa fa-github"></i></a>
+                        <a href="https://github.com/agenciafilgs"><i class="fa fa-github"></i></a>
                     </li>
-                    <!--<li>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                    </li> -->
+
                 </ul>
 
             </div>
@@ -107,7 +100,9 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="{{@asset('images/hero-bg.png')}}" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="home" class="s-home target-section" data-parallax="scroll"
+        data-image-src="{{@asset('images/hero-bg.png')}}" data-natural-width=3000 data-natural-height=2000
+        data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -116,13 +111,12 @@
 
             <div class="row home-content__main">
 
-                <h3>Bem-vindo ao Filgs</h3>
+                <h3>Oi eu sou o Filgs</h3>
 
                 <h1>
-                    Somos uma consultoria
-                    <br>tecnológica e agência digital
-                    <br> focada na experiência do usuário
-                    <br> e serviços de mobilidade digital.
+                Desenvolvedor fullstack e mobile com habilidades em infraestrutura e monitoramento. 
+Aqui é onde você vai conhecer um pouco sobre mim e se quiser também aprender um pouco com o meu Blog tem alguns artigos bem legais!
+
                 </h1>
 
                 <div class="home-content__buttons">
@@ -130,7 +124,10 @@
                         Contato
                     </a>
                     <a href="#about" class="smoothscroll btn btn--stroke">
-                        Sobre nós
+                        Quem é o Filgs
+                    </a>
+                    <a href="/blog" target="_blank" class="btn btn--stroke">
+                        Nosso blog
                     </a>
                 </div>
 
@@ -149,17 +146,18 @@
 
 
         <ul class="home-social">
-            <li>
+            {{-- <li>
                 <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
             </li>
             <li>
                 <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
+            </li> --}}
+            {{-- <li>
                 <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
+            </li> --}}
             <li>
-                <a href="#0"><i class="fa fa-github" aria-hidden="true"></i><span>Github</span></a>
+                <a href="https://github.com/agenciafilgs"><i class="fa fa-github"
+                        aria-hidden="true"></i><span>Github</span></a>
             </li>
             <!-- <li>
                 <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
@@ -178,7 +176,7 @@
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
                 <!-- <h3 class="subhead subhead--dark">Hello There</h3> -->
-                <h1 class="display-1 display-1--light">Somos Filgs</h1>
+                <h1 class="display-1 display-1--light">Quem é o Filgs</h1>
             </div>
         </div>
         <!-- end section-header -->
@@ -186,39 +184,24 @@
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
                 <p>
-                    Toda a ideia por trás do “Filgs”, teve início com o nosso CEO Rafael, que iniciou a carreira como analista de aplicações e em 2017  iniciou uma estratégia para monitorar as experiências dos usuários, mostrando excelentes resultados, no ano seguinte alguns amigos de diferentes áreas (tecnologia, administração, designer e marketing), se juntaram ao time e dessa forma iniciaram uma nova etapa que foi o desenvolvimento de soluções digitais e mobile, pensadas na experiência do usuário para maximizar resultados.
+                Meu nome é Rafael Filgueiras, sou um apaixonado por tecnologia desde criança, comecei como muitos fazendo manutenção curso em centros comunitários e depois de ganhar um Pentium 2 usado comecei a mexer com html e posteriormente um pouco de php e java. 
+Alguns anos a frente passei a trabalhar com manutenção na Santa Ifigenia no centro de SP, lugar onde aprendi muito e junto com o conhecimento que já tinha nessa época montei alguns sites para as empresas que passei usando html/css + php com mysql. 
+Caminhando mais um pouco tive oportunidade de atuar com servidores e datacenter em algumas empresas da cidade de Salvador – BA, onde obtive maior conhecimento sobre virtualização e configuração de ambientes web para IIS e Apache; além do conhecimento em SQLServer. Posteriormente no mesmo período abri uma micro empresa para realizar pequenos projetos. 
+Algum tempo depois estava de volta a SP atuando como PJ em alguns projetos com Magento e OpenCart e neste mesmo período houve oportunidade de entrar em uma empresa multinacional na área de TI, onde tive meu primeiro contato com monitoramento. 
+Por ter familiaridade com php e alguns bancos de dados, fazer adaptações, scripts e automações para o monitoramento facilitavam muito as probabilidades e o mais importante eu sabia e entendia como e o que era importante para a aplicação, isso foi o que me diferenciava. 
+Após dois anos recebi uma proposta de uma outra grande empresa do ramo varejista para adentrar como “Analista de tools” posição que misturava consultor e desenvolvimento; nessa posição comecei a atuar com Cloud na nuvem Microsoft Azure, posteriormente GCP Google. 
+Nesse período ganhei conhecimento com Aplicações PaaS, SaaS e IaaS; ficava responsável sobre o gerenciamento de custos de Cloud e das ferramentas usadas pela área de monitoração, consequentemente também atuava junto ao time de monitoramento desenvolvendo novas formas de monitorar os recursos usados, tanto que nesse período conseguimos capturar métricas diretas da nuvem publica e incorporar em nossas ferramentas, o que nós permitiu usar estes dados para começar a utilizar em conceitos avançados de obeservabilidade e melhorias nos processos de analise de sentimento. 
+Por fim neste período realizei o desenvolvimento de aplicativo para os clientes finais conseguirem acompanhar todas as métricas de soluções adquiridas e também uma previsão de eventos obtidas graças os processos de observação. 
+E atualmente agora em 2021 faço parte em um time focado em observabilidade e desenvolvimento com Flutter, no qual construí algumas aplicações com alto valor para o negócio. 
+Sendo uma delas uma ferramenta para controle de plantões e gerência de chamados integrado ao Azure AD (com SAML) e o software Jira além de total integração com a ferramenta confluence para documentações e um chat aberto (publico) com o firebase tudo a partir do mesmo app e notificações com o oneSignal. 
+<br>
+Estas foram algumas das minhas conquistas ao longo da minha carreira.
 
-                    Atualmente todas as nossas soluções são baseadas em serviços,
-                    <br>“pay per use” pois acreditamos que os nossos clientes não precisam se preocupar com sustentações de um projeto e sim colher os frutos do mesmo.
-
-                    <br>E esperamos que você nos deixe fazer parte da sua história e do seu sucesso.
 
                 </p>
             </div>
         </div>
         <!-- end about-desc -->
-
-        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-
-            <div class="col-block stats__col ">
-                <div class="stats__count">2</div>
-                <h5>Prêmios Recebidos</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">223</div>
-                <h5>Projetos</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">181</div>
-                <h5>Projetos Completos</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">22</div>
-                <h5>Clientes Felizes</h5>
-            </div>
-
-        </div>
-        <!-- end about-stats -->
 
         <div class="about__line"></div>
 
@@ -232,8 +215,8 @@
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">O QUE FAZEMOS</h3>
-                <h1 class="display-2">Nós temos tudo que você precisa para lançar e fazer crescer o seu negócio</h1>
+                <h3 class="subhead">HABILIDADES</h3>
+                <h1 class="display-2">Estas são as minhas principais habilidades e conhecimentos</h1>
             </div>
         </div>
         <!-- end section-header -->
@@ -242,22 +225,11 @@
 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
-                    <i class="icon-paint-brush"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Brand Identity</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
                     <i class="icon-group"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Illustration</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    <h3 class="h2">Web Design</h3>
+                    <p>Projetos criados com html/css, Javascript, habilidades com VueJS e sass. 
                     </p>
                 </div>
             </div>
@@ -267,8 +239,8 @@
                     <i class="icon-mobile"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Marketing</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    <h3 class="h2">Mobile</h3>
+                    <p>Habilidades com Flutter e Android nativo com Java, consumo de APIs e integrações com soluções de mercado e monitoramento das aplicações com APMs. 
                     </p>
                 </div>
             </div>
@@ -278,8 +250,8 @@
                     <i class="icon-earth"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Web Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    <h3 class="h2">Cloud</h3>
+                    <p>Conhecimento nas principais clouds Azure, GCP e Aws, habilidades com serveless, function PaaS, IaaS, container como serviço, Kubernets e gestão de custos.
                     </p>
                 </div>
             </div>
@@ -289,17 +261,11 @@
                     <i class="icon-cube"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Packaging Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
+                    <h3 class="h2">Monitoramento e Observability</h3>
+                    <p>Monitoramento de aplicação e negócio, desenvolvimento de integrações e customização da ferramenta Zabbix.<br> 
+Gerenciamento de logs e APM com Elastisearch e Dynatrace.<br>
+Relatórios integrados a processos de BI. 
 
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon"><i class="icon-lego-block"></i></div>
-                <div class="service-text">
-                    <h3 class="h2">Web Development</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.
                     </p>
                 </div>
             </div>
@@ -313,301 +279,11 @@
 
     <!-- works
     ================================================== -->
-    <section id='works' class="s-works">
-
-        <div class="intro-wrap">
-
-            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
-                <div class="col-full">
-                    <h3 class="subhead">Trabalhos recentes</h3>
-                    <h1 class="display-2 display-2--light">Adoramos o que fazemos,<br>confira alguns de nossos trabalhos mais recentes</h1>
-                </div>
-            </div>
-            <!-- end section-header -->
-
-        </div>
-        <!-- end intro-wrap -->
-
-        <div class="row works-content">
-            <div class="col-full masonry-wrap">
-                <div class="masonry">
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="{{@asset('images/portfolio/gallery/g-shutterbug.jpg')}}" class="thumb-link" title="Shutterbug" data-size="1050x700">
-                                    <img src="{{@asset('images/portfolio/lady-shutterbug.jpg')}}" srcset="{{@asset('images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x')}}" alt="">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Shutterbug
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Branding
-                                </p>
-                            </div>
-
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="{{@asset('images/portfolio/gallery/g-woodcraft.jpg')}}" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                    <img src="{{@asset('images/portfolio/woodcraft.jpg')}}" srcset="{{@asset('images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x')}}" alt="">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Woodcraft
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- end masonry__brick -->
-                    <!--
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="{{@asset('images/portfolio/gallery/g-beetle.jpg')}}" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                    <img src="{{@asset('images/portfolio/the-beetle.jpg')}}" srcset="{{@asset('images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x')}}" alt="">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    The Beetle
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Development
-                                </p>
-                            </div>
-
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-
-                        </div>
-                    </div> -->
-                    <!-- end masonry__brick -->
-                    <!--
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="{{@asset('images/portfolio/gallery/g-grow-green.jpg')}}" class="thumb-link" title="Grow Green" data-size="1050x700">
-                                    <img src="{{@asset('images/portfolio/grow-green.jpg')}}" srcset="{{@asset('images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x')}}" alt="">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Grow Green
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Branding
-                                </p>
-                            </div>
-
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    -->
-                    <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="{{@asset('images/portfolio/gallery/g-guitarist.jpg')}}" class="thumb-link" title="Guitarist" data-size="1050x700">
-                                    <img src="{{@asset('images/portfolio/guitarist.jpg')}}" srcset="{{@asset('images/portfolio/guitarist.jpg 1x, images/portfolio/guitarist@2x.jpg 2x')}}" alt="">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Guitarist
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="{{@asset('images/portfolio/gallery/g-palmeira.jpg')}}" class="thumb-link" title="Palmeira" data-size="1050x700">
-                                    <img src="{{@asset('images/portfolio/palmeira.jpg')}}" srcset="{{@asset('images/portfolio/palmeira.jpg 1x, images/portfolio/palmeira@2x.jpg 2x')}}" alt="">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Palmeira
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- end masonry__brick -->
-
-                </div>
-                <!-- end masonry -->
-            </div>
-            <!-- end col-full -->
-        </div>
-        <!-- end works-content -->
-
-    </section>
+    
     <!-- end s-works -->
 
 
-    <!-- clients
-    ================================================== -->
-    <section id="clients" class="s-clients">
 
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Tecnologias que usamos</h3>
-                <h1 class="display-2">Soluções que utilizamos em projetos com nossos clientes e parceiros.</h1>
-            </div>
-        </div>
-        <!-- end section-header -->
-
-        <div class="row clients-outer" data-aos="fade-up">
-            <div class="col-full">
-                <div class="clients">
-
-                    <a href="#0" title="" class="clients__slide"><img src="{{@asset('images/clients/apple.png')}}" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="{{@asset('images/clients/atom.png')}}" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="{{@asset('images/clients/blackberry.png')}}" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="{{@asset('images/clients/magento.png')}}" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="{{@asset('images/clients/dropbox.png')}}" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="{{@asset('images/clients/envato.png')}}" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="{{@asset('images/clients/firefox.png')}}" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="{{@asset('images/clients/joomla.png')}}" /></a>
-
-
-                </div>
-                <!-- end clients -->
-            </div>
-            <!-- end col-full -->
-        </div>
-        <!-- end clients-outer -->
-
-        <!--
-        <div class="row clients-testimonials" data-aos="fade-up">
-            <div class="col-full">
-                <div class="testimonials">
-
-                    <div class="testimonials__slide">
-
-                        <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum. Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori. Excepturi nam cupiditate
-                            culpa doloremque deleniti repellat.</p>
-
-                        <img src="{{@asset('images/avatars/user-01.jpg')}}" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Tim Cook</span>
-                            <span class="testimonials__pos">CEO, Apple</span>
-                        </div>
-
-                    </div>
-
-                    <div class="testimonials__slide">
-
-                        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci. Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-
-                        <img src="{{@asset('images/avatars/user-05.jpg')}}" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Sundar Pichai</span>
-                            <span class="testimonials__pos">CEO, Google</span>
-                        </div>
-
-                    </div>
-
-                    <div class="testimonials__slide">
-
-                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-
-                        <img src="{{@asset('images/avatars/user-02.jpg')}}" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Satya Nadella</span>
-                            <span class="testimonials__pos">CEO, Microsoft</span>
-                        </div>
-
-                    </div>
-
-                </div>
-                end testimonials
-
-            </div>
-            end col-full
-        </div> -->
-        <!-- end client-testimonials -->
-
-    </section>
     <!-- end s-clients -->
 
 
@@ -621,7 +297,8 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Contato</h3>
-                <h1 class="display-2 display-2--light">Tire todas as suas dúvidas, estamos a disposição para ajudar, sempre.</h1>
+                <h1 class="display-2 display-2--light">Tire todas as suas dúvidas, estou a disposição para ajudar,
+                    sempre.</h1>
             </div>
         </div>
 
@@ -631,44 +308,24 @@
 
                 <h3 class="h6">Envie-nos uma mensagem</h3>
 
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
-                    <fieldset>
+                <div class="row">
 
-                        <div class="form-field">
-                            <input name="contactName" type="text" id="contactName" placeholder="Digite o seu nome" value="" minlength="2" required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactEmail" type="email" id="contactEmail" placeholder="O seu Email aqui" value="" required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Coloque o Assunto" value="" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="Digite a sua mensagem aqui" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                        </div>
-                        <div class="form-field">
-                            <button class="full-width btn--primary">Enviar</button>
-                            <div class="submit-loader">
-                                <div class="text-loader">Enviando...</div>
-                                <div class="s-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
-                                </div>
+                    <div class="col-full">
+                        <p>
+                            <div class="cinfo">
+                                <h5>Email</h5>
+                                <h3>
+                                    <p>rafael.filgueiras@filgs.com.br</p>
+                                </h3>
                             </div>
-                        </div>
 
-                    </fieldset>
-                </form>
+                            <div class="cinfo">
+                                <h5>Número para contato</h5>
+                                <span class="contact-number">+55 (11) 94538-0589</span>
+                            </div>
+                        </p>
+                    </div> <!-- end contact-main -->
 
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Algo deu errado. Por favor, tente novamente.
-                </div>
-
-                <!-- contact-success -->
-                <div class="message-success">
-                    Sua mensagem foi enviada, obrigado!<br>
                 </div>
 
             </div>
@@ -682,28 +339,12 @@
                     <div class="cinfo">
                         <h5>Onde nos encontrar</h5>
                         <p>
-                            Google Startup Campus<br> São Paulo, SP<br>
+                            No momento home office<br> São Paulo, SP<br>
                         </p>
                     </div>
-
-                    <div class="cinfo">
-                        <h5>Email</h5>
-                        <p>
-                            contato@filgs.com<br>
-                        </p>
-                    </div>
-
-                    <!-- Incluir Skype e WhatsApp, obter um chip depois
-                    <div class="cinfo">
-                        <h5>Call Us At</h5>
-                        <p>
-                            Phone: (+63) 555 1212<br> Mobile: (+63) 555 0100<br> Fax: (+63) 555 0101
-                        </p>
-                    </div>
-                    -->
 
                     <ul class="contact-social">
-                        <li>
+                        {{-- <li>
                             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
                         <li>
@@ -711,9 +352,10 @@
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
+                        </li> --}}
                         <li>
-                            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/agenciafilgs"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
                         </li>
 
                     </ul>
@@ -754,7 +396,8 @@
 
                 <div class="subscribe-form">
                     <form id="mc-form" class="group" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Informe o seu email" required="">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email"
+                            placeholder="Informe o seu email" required="">
                         <input type="submit" name="subscribe" value="Inscrever-se">
                         <label for="mc-email" class="subscribe-message"></label>
                     </form>
@@ -770,12 +413,14 @@
             <div class="col-twelve">
                 <div class="copyright">
                     <span>Politica de privacidade</span>
-                    <span>© Copyright Filgs 2020</span>
-                    <!-- <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span> -->
+                    <span>© Copyright &copy;<script>
+                            document.write(new Date().getFullYear());
+                        </script> Todos os direitos reservados a Agencia Filgs</span>
                 </div>
 
                 <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"
+                            aria-hidden="true"></i></a>
                 </div>
             </div>
 
@@ -801,7 +446,11 @@
 
             <div class="pswp__ui pswp__ui--hidden">
                 <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+                        title="Share"></button> <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+                        title="Zoom in/out"></button>
                     <div class="pswp__preloader">
                         <div class="pswp__preloader__icn">
                             <div class="pswp__preloader__cut">
@@ -812,7 +461,8 @@
                 </div>
                 <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
                     <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
                 <div class="pswp__caption">
                     <div class="pswp__caption__center"></div>
                 </div>
